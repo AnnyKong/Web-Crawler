@@ -1,5 +1,5 @@
 # Web-Crawler
-A multiprocess web crawler for crawling historical photo records, and store outputs in `json` format
+A multiprocess web crawler for crawling historical photo records, and store outputs in `json` format.
 
 ## HOW TO RUN
 ```
