@@ -119,15 +119,15 @@ Notes:
 
 ### For multiprocessing:
   - multiprocessing
-  Notes: 
-  How to obtain the number of CPUs/cores in Linux from the command line?
-  (linux)
-  ```
-  cat /proc/cpuinfo | awk '/^processor/{print $3}' | wc -l
-  ```
-  
   - functools
   
+  Notes: 
+  - How to obtain the number of CPUs/cores in Linux from the command line?
+    (linux)
+    ```
+    cat /proc/cpuinfo | awk '/^processor/{print $3}' | wc -l
+    ```
+    
 ### For output format:
   - pandas (for `.tsv`)
   - json (for `.json`) preferred
