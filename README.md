@@ -23,12 +23,12 @@ Notes:
 - `grep "dict*"`: find all files starts with the pattern "dict"
 - `tail -1`: get the last one in the list
 
-### Overview of output files (JSON)
-### Where can I find my output files?
+## Overview of output files (JSON)
+### - Where can I find my output files?
 
   output files will be located under your `$project/dicts3` directory
 
-### What is the format of my output files?
+### - What is the format of my output files?
 
   Mapping from a dictionary to another dictionary:
   ```
@@ -49,7 +49,7 @@ Notes:
         }
   ```
 
-### Example:
+### - Example:
   ```
   {
     "14400": {
