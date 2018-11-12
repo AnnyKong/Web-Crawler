@@ -1,18 +1,18 @@
 # Web-Crawler
 A multiprocess web crawler for crawling historical photo records, and store outputs in `json` format
 
-### HOW TO RUN
+## HOW TO RUN
 ```
 python3 web3.py
 ```
 Notes: python 3 required.
 
-### How to read output files?
+## How to read output files?
 ```
 python3 read.py dicts3/<json_filename>
 ```
 
-### Some useful commands to check # records in an output file:
+## Some useful commands to check # records in an output file:
 ```
 cd dicts3/
 python3 ../read.py $(ls -tr | grep "dict*" | tail -1)
@@ -24,11 +24,11 @@ Notes:
 - `tail -1`: get the last one in the list
 
 ### Overview of output files (JSON)
-- Where can I find my output files?
+### Where can I find my output files?
 
   output files will be located under your `$project/dicts3` directory
 
-- What is the format of my output files?
+### What is the format of my output files?
 
   Mapping from a dictionary to another dictionary:
   ```
@@ -49,7 +49,7 @@ Notes:
         }
   ```
 
-- Example:
+### Example:
   ```
   {
     "14400": {
@@ -110,14 +110,14 @@ Notes:
   }
   ```
 
-### Modules needed
-- For getting the webpage:
+## Modules needed
+### For getting the webpage:
   - requests_html
   
-- For pattern match:
+### For pattern match:
   - re
 
-- For multiprocessing:
+### For multiprocessing:
   - multiprocessing
   Notes: 
   How to obtain the number of CPUs/cores in Linux from the command line?
@@ -128,6 +128,6 @@ Notes:
   
   - functools
   
-- For output format:
+### For output format:
   - pandas (for `.tsv`)
   - json (for `.json`) preferred
